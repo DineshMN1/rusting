@@ -34,6 +34,12 @@ fn main() {
 
     let dir = Direction::North;
     move_dir(dir);
+
+    let input = String::from("Hello SuperMan");
+    match find_first_a(input) {
+        Some(ind) => println!("First a is at index : {}", ind),
+        None => println!("No a found"),
+    }
 }
 
 fn letn() {
@@ -130,4 +136,15 @@ fn move_dir(direction: Direction) {
         Direction::East => println!("Moving East"),
         Direction::West => println!("Moving West"),
     }
+}
+
+
+// Option enum 
+fn find_first_a(s: String) -> Option<i32> {
+    for (ind,c) in s.chars().enumerate() {
+        if c == 'a' {
+            return Some(ind as i32);
+        }
+    }
+    return None ;
 }
