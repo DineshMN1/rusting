@@ -1,0 +1,11 @@
+1 ) Collections, Vectors
+2 ) iterators
+3 ) Hashmaps
+4 ) Strings, &str and slices
+5 ) Generics
+6 ) Traits 
+7 ) Multithreading
+8 ) Macros
+9 ) Futures
+10 ) Async/await and Tokio
+11 )Lifetimes

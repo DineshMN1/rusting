@@ -1,0 +1,13 @@
+1 ) Structs
+2 ) Enums
+3 ) Options/Result
+4 ) Pattern Matching
+5 ) Package Management
+
+
+6 ) Memory Management -> (Stack , Heap)
+7 ) Mutability
+8 ) Heap vs Stack
+9 ) OwnerShip
+10 ) Borrowing 
+11 ) References
