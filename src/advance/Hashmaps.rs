@@ -1,4 +1,4 @@
-use::std::collections::HashMap;
+use std::collections::HashMap;
 
 fn main() {
     let mut users = HashMap::new();
@@ -13,3 +13,7 @@ fn main() {
         None => println!("User not found"),
     }    
 }
+
+
+// Methods 1) Insert, 2) Get, 3) Remove, 4) Clear 
+// HashMap is a collection of key-value pairs

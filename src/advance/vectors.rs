@@ -1,5 +1,5 @@
 fn main() {
-    let mut vec = Vec::new();
+    let mut vec = Vec::new();  //creating a new vector
     vec.push(1);
     vec.push(2);
 
